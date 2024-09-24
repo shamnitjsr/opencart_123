@@ -311,4 +311,26 @@
  11:47:45.879 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
  11:47:47.392 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
  11:47:47.422 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+ 12:00:12.082 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shamb\eclipse-workspace\opencart_123\crossbrowserparalleltesting.xml"
+ 12:00:12.472 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shamb\eclipse-workspace\opencart_123\crossbrowserparalleltesting.xml
+
+ 12:00:19.793 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest *****
+ 12:00:20.368 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest *****
+ 12:00:20.551 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link 
+ 12:00:20.615 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link 
+ 12:00:21.806 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest *****
+ 12:00:21.951 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - clicked on Register Link 
+ 12:00:21.952 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - clicked on Register Link 
+ 12:00:21.956 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer details....
+ 12:00:21.958 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer details....
+ 12:00:22.219 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link 
+ 12:00:23.290 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - clicked on Register Link 
+ 12:00:23.292 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer details....
+ 12:00:25.394 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+ 12:00:25.441 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+ 12:00:25.609 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+ 12:00:25.694 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+ 12:00:25.709 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+ 12:00:25.827 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
  
