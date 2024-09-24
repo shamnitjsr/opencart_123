@@ -1,25 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-24T10:16:55 IST" name="Suite" finished-at="2024-09-24T10:17:02 IST" duration-ms="7235">
+  <suite started-at="2024-09-24T11:41:59 IST" name="Suite" finished-at="2024-09-24T11:42:23 IST" duration-ms="24585">
     <groups>
     </groups>
-    <test started-at="2024-09-24T10:16:55 IST" name="Test" finished-at="2024-09-24T10:17:02 IST" duration-ms="7235">
+    <test started-at="2024-09-24T11:41:59 IST" name="ChromeTest" finished-at="2024-09-24T11:42:07 IST" duration-ms="7703">
       <class name="testCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC001_AccountRegistrationTest@26425897]" started-at="2024-09-24T10:16:55 IST" name="setup" finished-at="2024-09-24T10:17:00 IST" duration-ms="4732" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@24b6b8f6]" started-at="2024-09-24T11:41:59 IST" name="setup" finished-at="2024-09-24T11:42:04 IST" duration-ms="4774" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@26425897]" started-at="2024-09-24T10:17:00 IST" name="verify_account_registration" finished-at="2024-09-24T10:17:02 IST" duration-ms="2252" status="PASS">
+        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@24b6b8f6]" started-at="2024-09-24T11:42:04 IST" name="verify_account_registration" finished-at="2024-09-24T11:42:06 IST" duration-ms="2659" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_account_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@26425897]" started-at="2024-09-24T10:17:02 IST" name="tearDown" finished-at="2024-09-24T10:17:02 IST" duration-ms="202" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@24b6b8f6]" started-at="2024-09-24T11:42:06 IST" name="tearDown" finished-at="2024-09-24T11:42:07 IST" duration-ms="216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC001_AccountRegistrationTest -->
-    </test> <!-- Test -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-09-24T11:42:07 IST" name="TFirefoxTest" finished-at="2024-09-24T11:42:15 IST" duration-ms="8822">
+      <class name="testCases.TC001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@2fea7088]" started-at="2024-09-24T11:42:07 IST" name="setup" finished-at="2024-09-24T11:42:12 IST" duration-ms="5286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@2fea7088]" started-at="2024-09-24T11:42:12 IST" name="verify_account_registration" finished-at="2024-09-24T11:42:14 IST" duration-ms="2567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_account_registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@2fea7088]" started-at="2024-09-24T11:42:14 IST" name="tearDown" finished-at="2024-09-24T11:42:15 IST" duration-ms="964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_AccountRegistrationTest -->
+    </test> <!-- TFirefoxTest -->
+    <test started-at="2024-09-24T11:42:15 IST" name="EdgeTest" finished-at="2024-09-24T11:42:23 IST" duration-ms="7994">
+      <class name="testCases.TC001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@51cd7ffc]" started-at="2024-09-24T11:42:15 IST" name="setup" finished-at="2024-09-24T11:42:20 IST" duration-ms="4249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@51cd7ffc]" started-at="2024-09-24T11:42:20 IST" name="verify_account_registration" finished-at="2024-09-24T11:42:22 IST" duration-ms="2427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_account_registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@51cd7ffc]" started-at="2024-09-24T11:42:22 IST" name="tearDown" finished-at="2024-09-24T11:42:23 IST" duration-ms="1316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_AccountRegistrationTest -->
+    </test> <!-- EdgeTest -->
   </suite> <!-- Suite -->
 </testng-results>

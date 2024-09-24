@@ -65,7 +65,7 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 			logger.info("Validating expected message");
 			String confmsg = regpage.getConfirmationMsg();
 
-			if (confmsg.equals("Your Account Has Been Created!!")) {
+			if (confmsg.equals("Your Account Has Been Created!")) {
 				Assert.assertTrue(true);
 			} else {
 				logger.error("Test Failed..");

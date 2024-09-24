@@ -31,7 +31,7 @@
 					<version>3.2.2</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>master.xml</suiteXmlFile>
+							<suiteXmlFile>crossbrowsersequentialtesting.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
@@ -127,7 +127,7 @@
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>7.8.0</version>
+			<version>7.10.2</version>
 			<scope>test</scope>
 		</dependency>
 
