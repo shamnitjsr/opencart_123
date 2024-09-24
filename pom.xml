@@ -31,7 +31,7 @@
 					<version>3.2.2</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>crossbrowsersequentialtesting.xml</suiteXmlFile>
+							<suiteXmlFile>crossbrowserparalleltesting.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
