@@ -1,15 +1,12 @@
 package testCases;
 
-import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import junit.framework.Assert;
 import pageObjects.AccountRegistrationPage;
 import pageObjects.HomePage;
 
 public class TC001_AccountRegistrationTest extends BaseClass {
-
-	
 
 //	@Test
 //	void verify_account_registration() {
@@ -36,29 +33,46 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 	@Test
 	void verify_account_registration() {
 
-		HomePage hp = new HomePage(driver);
-		hp.clickMyAccount();
-		hp.clickRegister();
+		try {
+			logger.info("***** Starting TC001_AccountRegistrationTest *****");
+			HomePage hp = new HomePage(driver);
 
-		AccountRegistrationPage regpage = new AccountRegistrationPage(driver);
+			hp.clickMyAccount();
+			logger.info("Clicked on MyAccount Link ");
 
-		regpage.setFirstName(randomString().toUpperCase());
-		regpage.setLastName(randomString().toUpperCase());
+			hp.clickRegister();
+			logger.info("clicked on Register Link ");
 
-		regpage.setEmail(randomString() + "@gmail.com"); // randomly generated the email
+			AccountRegistrationPage regpage = new AccountRegistrationPage(driver);
 
-		regpage.setTelephone(randomNumber());
+			logger.info("Providing Customer details....");
 
-		String password = randomAlphaNumeric();
+			regpage.setFirstName(randomString().toUpperCase());
+			regpage.setLastName(randomString().toUpperCase());
 
-		regpage.setPassword(password);
-		regpage.setConfirmPassword(password);
+			regpage.setEmail(randomString() + "@gmail.com"); // randomly generated the email
 
-		regpage.setPrivacyPolicy();
-		regpage.clickContinue();
+			regpage.setTelephone(randomNumber());
 
-		String confmsg = regpage.getConfirmationMsg();
-		Assert.assertEquals(confmsg, "Your Account Has Been Created!");
+			String password = randomAlphaNumeric();
+
+			regpage.setPassword(password);
+			regpage.setConfirmPassword(password);
+
+			regpage.setPrivacyPolicy();
+			regpage.clickContinue();
+
+			logger.info("Validating expected message");
+			String confmsg = regpage.getConfirmationMsg();
+			Assert.assertEquals(confmsg, "Your Account Has Been Created!");
+		} catch (Exception e) {
+
+			logger.error("Test Failed..");
+			logger.debug("Debug logs..");
+			Assert.fail();
+		}
+		
+		logger.info("***** Finished TC001_AccountRegistrationTest *****");
 
 	}
 
