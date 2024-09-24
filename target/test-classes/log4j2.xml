@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Configuration status="WARN">
+<Configuration status="Debug">
 	<Properties>
 		<Property name="basePath">./logs</Property>
 
@@ -25,6 +25,7 @@
 	<Loggers>
 		<Root level="Debug">
 			<AppenderRef ref="File" />
+			<AppenderRef ref="Console" />
 		</Root>
 	</Loggers>
 </Configuration>
